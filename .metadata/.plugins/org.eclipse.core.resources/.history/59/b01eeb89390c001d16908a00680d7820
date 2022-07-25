@@ -1,0 +1,26 @@
+server:
+  port: 8000
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+      force-request: true
+      force-response: true
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+  security:
+    user:
+      name: test
+      password: 1234
