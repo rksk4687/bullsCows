@@ -4,24 +4,21 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>Signin</title>
+<title>lobby</title>
 <style>
         h1{text-align: center;}
        
     </style>
 </head>
 <body>
-<h1>SIGNIN</h1>
+<h1>Lobby</h1>
 <div style="border:3px solid" align="center">
-<h3>ID</h3>
-<input type="text" value="ID 를 입력해주세요.">
-<h3>PASSWORD</h3>
-<input type="password" value="">
+<h3>ROOM</h3>
+<h4>PASSWORD</h4>
 <br/><br/>
-<input type="button" value="Signin">
+<input type="button" value="START">
 <br/><br/>
 
 </div>
-
 </body>
 </html>

@@ -11,7 +11,7 @@
     </style>
 </head>
 <body>
-<h1>SIGNIN</h1>
+<h1>Signin</h1>
 <div style="border:3px solid" align="center">
 <h3>ID</h3>
 <input type="text" value="ID 를 입력해주세요.">

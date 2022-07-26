@@ -4,9 +4,11 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>Index</title>
+ <title>Index</title>
     <style>
-        h1{text-align: center;
+       h1{text-align: center;}
+        .div_main{
+
         }
         .div_main{
             background-color :lightyellow;
@@ -15,6 +17,7 @@
             background-color: white;
         }
     </style>
+
 </head>
 <body>
 <h1>Bulls and Cows</h1>
@@ -23,7 +26,7 @@
 <input type="button" value="Signin">
 -->
 <h2>Rule</h2>
-<div class="div_rule" style = "border:1px dashed" align="left">
+<div class="div_rule" style = "border:1px dotted" align="left">
 
 <h3>Bulls and Cows is a 2 player game. One player thinks of a number,
      while the other player tries to guess it.</h3>
@@ -45,5 +48,6 @@
 <input type="button" value="Signin">
 <br/><br/>
 </div>
+
 </body>
 </html>
