@@ -39,10 +39,12 @@
     <br> e.g. Let the target be 123. 
     Guessing 312 will give 0 bulls and 3 cows. 
     321 will give 1 bull and 2 cows. 3 bulls means you have won the game! </h4>
+    <br/>
+    <h3 style="color:red">¡Ø In Korea, Bulls is called Strike and Cows is called Ball.</h3>
 <br/><br/>
 </div>
 <h3>Please sign in to use the game</h3>
-<input type="button" value="Signin">
+<input type="button" value="Signin" onclick="location.href='signin'">
 <br/><br/>
 </div>
 </body>
