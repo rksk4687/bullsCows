@@ -9,17 +9,21 @@ server:
       force-response: true
   tomcat:
     uri-encoding: UTF-8
+
 spring:
   mvc:
     view:
       prefix: /WEB-INF/
       suffix: .jsp
-
   servlet:
     multipart:
       max-file-size: 10MB
       max-request-size: 10MB
-
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/bullscows
+    username: postgres
+    password: 1234
   security:
     user:
       name: test
